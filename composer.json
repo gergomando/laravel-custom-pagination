@@ -1,0 +1,26 @@
+{
+    "name": "webmuscets/laravel-custom-pagination",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Gergo Mando",
+            "email": "gergo.mando@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravelcollective/html": "^5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "webmuscets\\CustomPagination\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "webmuscets\\CustomPagination\\CustomPaginationServiceProvider"
+            ]
+        }
+    }
+}
